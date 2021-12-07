@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item is-size-4 ml-3">
+      <b>Bulma</b>
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        About
+      </a>
+
+      <a class="navbar-item">Contact</a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <button class="button is-info"><i class="fab fa-github mr-2"></i>Download</button>
+      </div>
+    </div>
+  </div>
+</nav>
+ 
+<!-- Hero section -->
+
+<section class="hero is-link is-halfheight has-text-centered is-size-3-tablet">
+  <div class="container has-text-centered hero-body">
+    <p class="title has-text-centered m-5 p-5">
+      Welcome to the Bulma Tutorial
+    </p>
+  </div>
+</section>
+
+
+<!-- Cards -->
+
+ <div class="card m-5">
+  <div class="card-image">
+    <figure class="image is-3by3">
+      <img src="http://static3.businessinsider.com/image/559c29eeecad046c4afc8f85/the-most-breathtaking-natural-wonders-in-the-us.jpg" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">John Smith</p>
+        <p class="subtitle is-6">@johnsmith</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      <a href="#">#css</a> <a href="#">#responsive</a>
+      <br>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
+  </div>
+</div>
+
+<br>
+<!-- My skills -->
+
+<h2 class="is-size-5 has-text-centered m-5 has-text-weight-bold">My Skills</h2>
+
+<div class="container p-5 ">
+  <progress class="progress is-primary" value="15" max="100">15%</progress>
+  <progress class="progress is-success" value="25" max="100">15%</progress>
+  <progress class="progress is-danger" value="35" max="100">15%</progress>
+  <progress class="progress is-info" value="5" max="100">15%</progress>
+</div>
+
+<br>
+
+<!-- Contact us page -->
+
+<div class="container-fluid has-background-black p-5 has-text-white">
+  
+<h2 class="is-size-5 has-text-centered m-5 has-text-weight-bold">Contact</h2>
+
+<div class="field m-5">
+  <label class="label has-text-white">Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Text input">
+  </div>
+</div>
+
+<div class="field m-5">
+  <label class="label has-text-white">Username</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+    <span class="icon is-small is-left">
+      <i class="fas fa-user"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fas fa-check"></i>
+    </span>
+  </div>
+</div>
+
+<div class="field m-5">
+  <label class="label has-text-white">Email</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input has-background-primary-light" type="email" placeholder="Email input" value="hello@">
+    <span class="icon is-small is-left">
+      <i class="fas fa-envelope"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fas fa-exclamation-triangle"></i>
+    </span>
+  </div>
+</div>
+
+
+<div class="field m-5 is-outlined">
+  <label class="label has-text-white">Message</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Textarea"></textarea>
+  </div>
+</div>
+
+<div class="field m-5">
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox">
+      I agree to the <a href="#">terms and conditions</a>
+    </label>
+  </div>
+</div>
+
+
+<div class="field is-grouped m-5">
+  <div class="control">
+    <button class="button is-link">Submit</button>
+  </div>
+  <div class="control">
+    <button class="button is-link is-light">Cancel</button>
+  </div>
+</div>
+</div>
+  </body>
+</html>
